@@ -2,22 +2,31 @@ Question 1: What is your GitHub URL?
 ->https://github.com/RahulKorde19
 
 Question 2: What version is the requests library installed on the system?
--> (2.28.1)
+-> 2.31.0
 
 Question 3: What version is the requests library installed in the virtualenv?
--> (2.28.1)
+-> 2.31.0
 
 Question 4: What is the difference between the virtual environment and the not virtual environment python?
 ->Former downloaded in python as a site package as one of its libraries. Latter was installed in the normalizer in the url library
 
 Question 5: What status code is returned for http://google.com ? What URL must you visit to get a 200 status code?
-->
+-> 301 status returend for http://google.com
+  Status code 200 is returned for http://www.google.com
 
 Question 6: What status code is returned for http://google.com/teapot? Is it the one returned by curl -i or curl -iL? What happens when you curl http://www.google.com/teapot?
-->
+->  301 status code is returned by -i for http://google.com/teapot (not -iL)
+    418 returened for http://www.google.com/teapot
 
 Question 7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?
-->
+-> GET VS POST. for posting requests vs 
 
 Question 8: What is the raw URL to your Python script on GitHub?
-->
+-> https://raw.githubusercontent.com/RahulKorde19/Lab1/main/lab1.py
+
+
+Notes: Demo qs
+what is a request? what is -i?
+What is -iL? how are they different
+
+iL includes headers like -i but also inlcudes the location of the new place hwere the site is permmanently moved to
