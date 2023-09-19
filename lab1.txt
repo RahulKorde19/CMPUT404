@@ -18,7 +18,10 @@ Question 3: What version is the requests library installed in the virtualenv?
 
 Question 4: What is the difference between the virtual environment and the not virtual environment python?
 
-->The virtual environment python has Python interpreter, packages, and tools like pip installed already so one can use Python 2.8, 3.7, 3.8 without any individual downloads required. Virtual environment avoids the need to install Python packages globally. The not virtual python environment downloads one package, tool at a time and others can be downloaded later eg: Python 3.7 can be used once. if python 2.8 needs to be used then it needs to be used separately. 
+->The virtual environment python has Python interpreter, packages, and tools like pip installed already so one can use Python 2.8, 3.7, 3.8 without any individual downloads required.
+Virtual environment avoids the need to install Python packages globally.
+The not virtual python environment downloads one package, tool at a time and others can be downloaded later
+eg: Python 3.7 can be used once. if python 2.8 needs to be used then it needs to be used separately. 
 
 
 
@@ -40,7 +43,9 @@ Question 6: What status code is returned for http://google.com/teapot? Is it the
 
 Question 7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?
 
--> Request Code - GET VS POST.  Miniforage. Content type is "application/x-www-form-urlencoded" for -X POST while N/A for GET. Content length for POST while N/A for GET. PORT, ID, METHOD is different. The -X POST is useful for posting, adding, annotating, extending data i.e sending data to the server while the GET is used to get data from the server.
+-> Request Code - GET VS POST.  Miniforage. Content type is "application/x-www-form-urlencoded" for -X POST while N/A for GET.
+Content length for POST while N/A for GET. PORT, ID, METHOD is different. The -X POST is useful for posting, adding,
+annotating, extending data i.e sending data to the server while the GET is used to get data from the server.
 
 
 
