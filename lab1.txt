@@ -1,27 +1,51 @@
 Question 1: What is your GitHub URL?
+
 ->https://github.com/RahulKorde19
 
+
+
 Question 2: What version is the requests library installed on the system?
+
 -> 2.31.0
+
+
 
 Question 3: What version is the requests library installed in the virtualenv?
+
 -> 2.31.0
 
+
+
 Question 4: What is the difference between the virtual environment and the not virtual environment python?
-->Former downloaded in python as a site package as one of its libraries. Latter was installed in the normalizer in the url library
+
+->The virtual environment python has Python interpreter, packages, and tools like pip installed already so one can use Python 2.8, 3.7, 3.8 without any individual downloads required. Virtual environment avoids the need to install Python packages globally. The not virtual python environment downloads one package, tool at a time and others can be downloaded later eg: Python 3.7 can be used once. if python 2.8 needs to be used then it needs to be used separately. 
+
+
 
 Question 5: What status code is returned for http://google.com ? What URL must you visit to get a 200 status code?
+
 -> 301 status returend for http://google.com
+
   Status code 200 is returned for http://www.google.com
 
+
+
 Question 6: What status code is returned for http://google.com/teapot? Is it the one returned by curl -i or curl -iL? What happens when you curl http://www.google.com/teapot?
+
 ->  301 status code is returned by -i for http://google.com/teapot (not -iL)
-    418 returened for http://www.google.com/teapot
+
+    418 returned for http://www.google.com/teapot
+
+
 
 Question 7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?
--> GET VS POST. for posting requests vs 
+
+-> Request Code - GET VS POST.  Miniforage. Content type is "application/x-www-form-urlencoded" for -X POST while N/A for GET. Content length for POST while N/A for GET. PORT, ID, METHOD is different. The -X POST is useful for posting, adding, annotating, extending data i.e sending data to the server while the GET is used to get data from the server.
+
+
 
 Question 8: What is the raw URL to your Python script on GitHub?
+
 -> https://raw.githubusercontent.com/RahulKorde19/Lab1/main/lab1.py
 
 
