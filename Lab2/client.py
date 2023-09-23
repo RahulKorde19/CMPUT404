@@ -18,4 +18,4 @@ def get(host, port):
     s.close()
 
 #get("www.google.com", 80)
-get("localhost", 8080)
+get("localhost", 8080) #for Q6 and Q5

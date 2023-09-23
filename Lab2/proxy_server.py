@@ -20,10 +20,12 @@ def send_request(host, port, request):
         #assemble the response from the server, be careful here, recall that recv(bytes) blocks until it receives data!
         data = client_socket.recv(BYTES_TO_READ)
         result = b'' + data
+        print(result)
+        print(data)
         while len(data) > 0: #keep reading until no connection temrinates
             data = client_socket.recv(BYTES_TO_READ)
             result += data
-        #return response
+        return result
 
 
 #Handle an incoming connection that has been accepted by the server
@@ -39,8 +41,9 @@ def handle_connection(conn, addr):
                 break
             print(data) #otherwise, print the data
             request += data
-        response = send_request("www.google.com", 80, request) # and send it as a request to www.google.com
-        conn.sendall(response) #return the response from www.google.com back to the client
+        response = send_request("www.google.com", 80, request)
+         # and send it as a request to www.google.com
+        conn.sendall(response or b'') #return the response from www.google.com back to the client
 
 #Start a single threaded proxy server
 def start_server():
