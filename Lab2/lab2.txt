@@ -14,7 +14,7 @@ connection from a client socket.
 => Connected by ('127.0.0.1', 63927) - IP and PORT
 
  - Question 5: What is returned by recv() from the server after it is done sending the HTTP request?
-=> We get - b'' . It returns a byte and an empty string.
+=> We get - b'OK' . It returns a byte and a string saying 'OK'.
 
  - Question 6: Provide a link to your code on GitHub.
 => https://github.com/RahulKorde19/CMPUT404/tree/main/Lab2
