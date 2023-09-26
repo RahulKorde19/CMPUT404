@@ -17,4 +17,4 @@ connection from a client socket.
 => We get - b'' . It returns a byte and an empty string.
 
  - Question 6: Provide a link to your code on GitHub.
-=> 
+=> https://github.com/RahulKorde19/CMPUT404/tree/main/Lab2
